@@ -77,7 +77,11 @@ func countNodesWithOneChild(root *TreeNode) int {
 }
 
 func main() {
-	values := []int{5, -23, -7, 7, 3, 1, -5, -6, 12, -12}
+	// values := []int{8, 1, 3, 5, 7, 2}
+	// values := []int{4, -5, 7, 12, -3, 9}
+	//values := []int{4, 2, 5, -3, 3, 5, 7, 6, 8}
+	values := []int{4, 2, 5, -3, 3, 7, 6, 8}
+
 	root := CreateNodeTree(values[0])
 	values = values[1:]
 	createBinarryTree(root, values)
